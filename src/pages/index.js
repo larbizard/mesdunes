@@ -8,17 +8,11 @@ import Map from '../components/Map';
 import styles from '../../styles/Home.module.css';
 
 
-const DEFAULT_CENTER = [33.36081, -8.29610]
+const DEFAULT_CENTER = [33.35770, -8.29577]
 
 
 
 export default function Home() {
-
-  const markerRef = useRef()
-
-  useEffect(() => {
-    // markerRef.openPopup()
-  },[])
 
   return (
     <div className={styles.container}>
